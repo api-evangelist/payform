@@ -1,7 +1,27 @@
 aid: payform
 name: Payform
-description: Payform is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  PayForm is a no-code payment form builder that lets creators and small
+  businesses accept one-time and recurring credit-card payments without writing
+  code. Users design customizable checkout forms with flexible fields, run
+  recurring billing with trial periods and setup fees, and deliver digital
+  content such as e-books, videos, and music through a members-only area. It
+  supports 50+ currencies and 30+ languages, connects to the Stripe and PayPal
+  payment gateways, and provides a subscriber self-service portal, Zapier
+  automation to 2,000+ apps, and webhooks for custom integrations. Payform is a
+  portfolio company of 500 Global.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://payform.me/wp-content/themes/payform-new/assets/images/logo.svg
 url: https://raw.githubusercontent.com/api-evangelist/payform/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Payments
+- Payment Forms
+- No-Code
+- Recurring Billing
+- Subscriptions
+- Checkout
+- Digital Content
+- SaaS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +51,32 @@ maintainers:
 common:
 - type: Website
   url: https://payform.me
+- type: Login
+  url: https://app.payform.me/
+- type: SignUp
+  url: https://payform.me/create
+- type: Pricing
+  url: https://payform.me/pricing/
+- type: Documentation
+  url: https://payform.me/tutorials/
+- type: Blog
+  url: https://payform.me/blog/
+- type: Support
+  url: https://payform.me/contact-us/
+- type: TermsOfService
+  url: https://payform.me/tos/
+- type: PrivacyPolicy
+  url: https://payform.me/privacy-policy/
+- type: Integrations
+  url: https://payform.me/integrations/
+- type: Webhooks
+  url: https://payform.me/integrations/
+- type: DomainSecurity
+  url: security/payform-domain-security.yml
+- type: LLMsTxt
+  url: llms/payform-llms.txt
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 2
+  pass: local-v1
