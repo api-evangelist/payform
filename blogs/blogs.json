@@ -2,6 +2,13 @@
   "repo": "payform",
   "feeds": [
     {
+      "source": "https://payform.me/feed/",
+      "feed_url": "https://payform.me/feed/",
+      "title": "",
+      "saved": 0,
+      "method": "feed"
+    },
+    {
       "source": "https://payform.me/tutorials/",
       "feed_url": "https://payform.me/feed/",
       "title": "",
@@ -10,5 +17,5 @@
     }
   ],
   "post_count": 0,
-  "fetched": "2026-07-25T15:00:33Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
